@@ -450,9 +450,15 @@ nav a.current {
 }
 
 #resume img {
-    width: 80%;
+    width: 60%;
 }
 
+#quizLine {
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -766,3 +772,17 @@ footer .footer-links.show {
 
 
 
+
+
+
+
+#quizButton a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#quizButton:hover {
+    background-color: rgb(247, 245, 245);
+    box-shadow:inset 5px 5px 5px 5px rgb(96, 93, 93);
+}
